@@ -1,7 +1,7 @@
 
 # duo-markdown ![travis](https://travis-ci.org/staygrimm/duo-markdown.svg)
 
-require markdown files as html strings within [duo](https://github.com/duojs/duo).
+require markdown files as html strings with [duo](https://github.com/duojs/duo).
 
 ## Installation
 
@@ -9,21 +9,37 @@ require markdown files as html strings within [duo](https://github.com/duojs/duo
 npm install duo-markdown
 ```
 
-## Example
+## Usage
 
-```js
-yield Duo(root)
-  .use(markdown())
-  .run()
+### CLI
+
+```sh
+$ duo --use duo-markdown
 ```
 
-in your markdown file:
+### API
+
+in your `build.js` file:
+```js
+var Duo = require('duo');
+var markdown = require('duo-markdown');
+
+var duo = Duo(__dirname)
+    .entry('index.js')
+    .use(markdown());
+
+duo.run(function (err, file) {
+    // do stuff
+});
+```
+
+in your `template.md` file:
 
 ```md
 # Hello World!
 ```
 
-Then in your javascript file:
+then in your `index.js` file:
 
 ```js
 var html = require('./template.md'); //=> '<h1>Hello World!</h1>'
