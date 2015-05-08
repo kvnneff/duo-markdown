@@ -1,6 +1,6 @@
 
 # duo-markdown
-
+[travis](https://travis-ci.org/staygrimm/duo-markdown.svg)
   require markdown files as html strings within [duo](https://github.com/duojs/duo).
 
 ## Installation
