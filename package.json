@@ -1,6 +1,6 @@
 {
   "name": "duo-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Duo plugin to render markdown files as html",
   "main": "index.js",
   "directories": {
