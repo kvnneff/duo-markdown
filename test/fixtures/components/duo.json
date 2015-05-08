@@ -1,0 +1,10 @@
+{
+  "simple.md": {
+    "id": "simple.md",
+    "type": "js",
+    "mtime": 1431047959000,
+    "src": "module.exports = '<p><a href=\"http://foo.com\">http://foo.com</a></p>\\n';",
+    "deps": {},
+    "entry": true
+  }
+}

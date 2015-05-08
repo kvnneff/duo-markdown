@@ -1,0 +1,37 @@
+{
+  "name": "duo-markdown",
+  "version": "1.0.0",
+  "description": "A Duo plugin to render markdown files as html",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/staygrimm/duo-markdown"
+  },
+  "keywords": [
+    "duo",
+    "markdown",
+    "html",
+    "plugin"
+  ],
+  "author": "River Grimm <river.grimm@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/staygrimm/duo-markdown/issues"
+  },
+  "homepage": "https://github.com/staygrimm/duo-markdown",
+  "devDependencies": {
+    "duo": "^0.11.4",
+    "mocha": "^2.2.4",
+    "vm": "0.0.1"
+  },
+  "dependencies": {
+    "markdown-it": "^4.2.1",
+    "string-to-js": "0.0.1"
+  }
+}
