@@ -1,5 +1,5 @@
 
-# duo-markdown ![travis](https://travis-ci.org/staygrimm/duo-markdown.svg)
+# duo-markdown ![travis](https://travis-ci.org/kvnneff/duo-markdown.svg)
 
 require markdown files as html strings with [duo](https://github.com/duojs/duo).
 
@@ -63,7 +63,7 @@ make test
 
 (The MIT License)
 
-Copyright (c) 2015 river grimm &lt;river.grimm@gmail.com&gt;
+Copyright (c) 2015 Kevin Neff &lt;kvnneff@gmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
